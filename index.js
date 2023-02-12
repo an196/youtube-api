@@ -8,7 +8,6 @@ const errorHandler = require('./middleware/errorHandler');
 const mongoose = require('mongoose');
 const connectDB = require('./config/dbConnection');
 const credentials = require('./middleware/credentials');
-const http = require('http');
 
 const PORT = process.env.PORT || 3500;
 
@@ -36,7 +35,6 @@ app.use('/video', require('./routes/api/video'));
 
 app.use(errorHandler);
 
-  
 mongoose.connection.once('open', () => {
     console.log('Connected to MongoDB');
     app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
