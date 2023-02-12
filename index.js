@@ -36,11 +36,6 @@ app.use('/video', require('./routes/api/video'));
 
 app.use(errorHandler);
 
-const server = http.createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello World');
-  });
   
 mongoose.connection.once('open', () => {
     console.log('Connected to MongoDB');
