@@ -1,0 +1,254 @@
+### get a default video
+
+GET   http://localhost:8080/video
+content-type: application/json 
+
+
+
+### add a  video 4
+
+POST  http://localhost:8080/video
+content-type: application/json
+
+{
+  "_idVideo": "7fqhD6WCsyc",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoVideo": {
+    "title": "CÂU CHUYỆN CON THỎ NGHÈO VƯỢT KHÓ",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails1%2Fthumbnail12.jpg?alt=media&token=cc11b19c-8f64-4ba1-99f3-96380bc4c350",
+    "embedlink": "https://www.youtube.com/embed/7fqhD6WCsyc",
+    "briefDes": ". Vui lòng không reup video của Thỏ dưới mọi hình thức. #HHCT #T7M #thobaymau Nếu ...",
+    "timePost": "1 năm trước",
+    "time": "1 giờ",
+    "gif": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails2%2Fmqdefault_6s_5.webp?alt=media&token=2c712124-e346-44c8-b079-8238e7e25ba1"
+  }
+}
+
+### add a  video 3
+
+POST  http://localhost:8080/video
+content-type: application/json
+
+{
+  "_idVideo": "rY_KaL0wPGU",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoVideo": {
+    "title": "THỎ BẢY MÀU - THẦN BÀI MIỀN TÂY | Hoạt Hình Tết 2023",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails1%2Fthumbnail2.jpg?alt=media&token=b53d23db-64bd-437c-b431-3090106a5149",
+    "embedlink": "https://www.youtube.com/embed/U_6xHKGf3Ho",
+    "briefDes": " - THẦN BÀI MIỀN TÂY #hhct #T7M #thobaymau (trẻ em dưới 13 tuổi cần xem khi có sự giám sát của phụ huynh) ...",
+    "timePost": "1 năm trước",
+    "viewCount": "16 N lượt xem",
+    "time": "1 giờ",
+    "gif": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails2%2Fmqdefault_6s_6.webp?alt=media&token=739cf48e-55d4-48c6-9aef-e02907c155da"
+  }
+}
+
+### add a  video 1
+
+POST  http://localhost:8080/video
+content-type: application/json
+
+{
+  "_idVideo": "PzdkimLD8Yc",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoVideo": {
+    "title": "THỎ BẢY MÀU VÀ NGƯỜI YÊU MỚI CỦA CHỊ XÔ",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails1%2Fthumbnail1.jpg?alt=media&token=ee004744-82ca-43fd-a5ce-8321a1b95c68",
+    "embedlink": "https://www.youtube.com/embed/rY_KaL0wPGU",
+    "briefDes": "Và Người Yêu Mới Của Chị Xô #thobaymau #dauaidamhua ...",
+    "timePost": "1 năm trước",
+    "viewCount": "16 N lượt xem",
+    "time": "1 giờ",
+    "gif": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails2%2Fmqdefault_6s_9.webp?alt=media&token=3e06210a-b413-4a01-9797-9e5c9fc2d66d"
+  }
+}
+
+### add a  video 2
+
+POST  http://localhost:8080/video
+content-type: application/json
+
+{
+  "_idVideo": "U_6xHKGf3Ho",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoVideo": {
+    "title": "CÁI TẾT CỦA ÔNG NĂM",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails1%2Fthumbnail7.jpg?alt=media&token=675305bc-b96d-4b6b-aef1-2b3c5a4f8d14",
+    "embedlink": "https://www.youtube.com/embed/fs_2D2VGuHo",
+    "briefDes": "CÁI TẾT CỦA ÔNG NĂM #thobaymau #tho7mau #ongnam Đây là kênh chính thức của",
+    "timePost": "1 năm trước",
+    "viewCount": "16 N lượt xem",
+    "time": "1 giờ",
+    "gif": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails2%2Fmqdefault_6s_10.webp?alt=media&token=69f530d0-a624-4be6-8f66-19024d9a0860"
+  }
+}
+
+### add video 5
+
+POST  http://localhost:8080/video
+content-type: application/json
+
+{
+  "_idVideo": "mltbTWMH4",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoVideo": {
+    "title": "KIẾM KHÁCH SỐ 1 | THỎ BẢY MÀU",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails1%2Fthumbnail13.jpg?alt=media&token=45afaac2-a691-4ed9-ba60-e5982f621d7d",
+    "embedlink": "https://www.youtube.com/embed/a2Nr6bubN8Y",
+    "briefDes": " #ThoBayMau #kiemkhachso1 Đây là kênh chính thức của dừng chân tại Giải đấu với vị trí Top 5. #thobaymau #thỏbảymàu #tho7mau #soloyasuo #phỏngvấn #thỏbảymàusoloyasuo",
+    "timePost": "1 năm trước",
+    "viewCount": "16 N lượt xem",
+    "time": "1 giờ",
+    "gif": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails2%2Fmqdefault_6s_8.webp?alt=media&token=d1528075-b41b-446e-b121-abf65f214af5"
+  }
+}
+
+### add a  video 6
+
+POST  http://localhost:8080/video
+content-type: application/json
+
+{
+  "_idVideo": "gpnbrmk1nbE",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoVideo": {
+    "title": "TRUNG TÂM GIÁC NGỘ INTERNET",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails1%2Fthumbnail8.jpg?alt=media&token=c4c78a8f-0c08-4d2a-8637-ac600cc02fdd",
+    "embedlink": "https://www.youtube.com/embed/gpnbrmk1nbE",
+    "briefDes": "TRUNG TÂM GIÁC NGỘ INTERNET #thobaymau #tho7mau Đây là kênh chính thức của ",
+    "timePost": "1 năm trước",
+    "viewCount": "16 N lượt xem",
+    "time": "1 giờ",
+    "gif": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails2%2Fmqdefault_6s_11.webp?alt=media&token=050eb17c-4d97-4bdf-8b39-53a96cc1cd54"
+  }
+}
+
+### add a  video 7
+
+POST  http://localhost:8080/video
+content-type: application/json
+
+{
+  "_idVideo": "wb9yFgiFBBY",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoVideo": {
+    "title": "SỰ TRẢ THÙ CỦA ÔNG NĂM | HOẠT HÌNH CON THỎ",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails1%2Fthumbnail11.jpg?alt=media&token=2c9c6d95-b8e9-4c6e-8c47-4ded6c5260cb",
+    "embedlink": "https://www.youtube.com/embed/wb9yFgiFBBY",
+    "briefDes": "SỰ TRẢ THÙ CỦA ÔNG NĂM | HOẠT HÌNH CON THỎ Đây là kênh chính thức của",
+    "timePost": "1 năm trước",
+    "viewCount": "16 N lượt xem",
+    "time": "1 giờ",
+    "gif": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails2%2Fmqdefault_6s.webp?alt=media&token=9e16ef8e-ce9e-4fb0-b695-3ddc0b453b7c"
+  }
+}
+
+### add a  video 8
+
+POST  http://localhost:8080/video
+content-type: application/json
+
+{
+  "_idVideo": "cwX4BT_ulIc",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoVideo": {
+    "title": "THỎ BẢY MÀU VÀ HÀNH TRÌNH CHUYỂN SINH",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails1%2Fthumbnail4.jpg?alt=media&token=ab4b330b-ece0-4551-a727-4d6987668fad",
+    "embedlink": "https://www.youtube.com/embed/cwX4BT_ulIc",
+    "briefDes": "Đây là kênh chính thức của Thỏ Bảy Màu . Vui lòng không reup video của Thỏ dưới mọi hình thức. #HHCT #T7M Nếu thích Thỏ",
+    "timePost": "1 năm trước",
+    "viewCount": "16 N lượt xem",
+    "time": "1 giờ",
+    "gif": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails2%2Fmqdefault_6s_4.webp?alt=media&token=b5d2639b-ddd9-4a5d-a907-ad2dadb84d45"
+  }
+}
+
+### add a  video 9
+
+POST  http://localhost:8080/video
+content-type: application/json
+
+{
+  "_idVideo": "zkFWb9cFXYg",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoVideo": {
+    "title": "CHUYẾN ĐI HẠNH PHÚC CỦA ÔNG NĂM VỀ QUÊ THỎ NGÀY TẾT - TẾT VỀ QUÊ THỎ | HOẠT HÌNH CON THỎ",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails1%2Fthumbnail9.jpg?alt=media&token=0aa56f0f-f90e-4435-8f36-917cf7f952ad",
+    "embedlink": "https://www.youtube.com/embed/zkFWb9cFXYg",
+    "briefDes": "CHUYẾN ĐI HẠNH PHÚC CỦA ÔNG NĂM VỀ QUÊ NGÀY TẾT - TẾT VỀ QUÊ THỎ | HOẠT HÌNH CON ",
+    "timePost": "1 năm trước",
+    "viewCount": "16 N lượt xem",
+    "time": "1 giờ",
+    "gif": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails2%2Fmqdefault_6s_2.webp?alt=media&token=f83b596f-1d92-49af-94e9-6b49ab792052"
+  }
+}
+
+### add a  video 10
+
+POST  http://localhost:8080/video
+content-type: application/json
+
+{
+  "_idVideo": "zkFWb9cFXYg",
+  "infoOwner": {
+    "channelName": "THỎ BẢY MÀU",
+    "imgProfile": "https://yt3.ggpht.com/nUn1DIIVQtqxdI5ubE_O8VhmT38NTA_7vIhS__sZsJfunY1uheawMvatoP9WMKu9nF8thJHK1g=s68-c-k-c0x00ffffff-no-rj",
+    "channelLink": "https://www.youtube.com/thobaymau"
+  },
+  "infoVideo": {
+    "title": "GIẢI CỨU ÔNG NĂM VÀ CON THỎ SA NGÃ",
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails1%2Fthumbnail5.jpg?alt=media&token=7cef42bc-78ce-43ac-89ac-844bd79d6653",
+    "embedlink": "https://www.youtube.com/embed/mEBZ3IlF1TU",
+    "briefDes": "GIẢI CỨU ÔNG NĂM VÀ CON THỎ  SA NGÃ #thobaymau #tho7mau #thobaymauofficial #thosanga Đây là kênh chính thức của",
+    "timePost": "1 năm trước",
+    "viewCount": "16 N lượt xem",
+    "time": "1 giờ",
+    "gif": "https://firebasestorage.googleapis.com/v0/b/youtube-clone-377414.appspot.com/o/thumbnails2%2Fmqdefault_6s_7.webp?alt=media&token=4b288a35-71e0-47fa-a3a4-82db2eec6678"
+  }
+}
+
+### delete a video
+
+DELETE    http://localhost:8080/video/:id
+content-type: application/json
+
+{
+    "id" : "62c70a924df41f5f5f82e1a8"
+}
