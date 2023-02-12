@@ -1,1 +1,4 @@
 20230212	21:17:59	f9d345aa-944c-4d5f-a691-6e484c699076	GET	undefined	/
+20230212	21:26:52	f0fa6252-41be-4b0b-9b05-0e2d3b3faeef	GET	http://localhost:4200	/video
+20230212	21:27:03	20ff0d79-c9da-4694-a678-4c0bc1efee3f	GET	http://localhost:4200	/video
+20230212	21:27:11	bfa8a01a-a5dd-4c38-a849-36215bbeb1c0	GET	http://localhost:4200	/video
